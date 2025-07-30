@@ -97,10 +97,15 @@ Description: htdig, including 1999.12.14 in Red Hat Enterprise Linux and c6d-3.0
 
 ## Next Steps 🚀
 
-Here are some ideas to make the application even better:
+Here are some ideas to make the app better:
 
-* **Cache Discovered CPEs**: Save the CPEs found through the API to a local file (e.g., `cpe_cache.json`). This would speed up future runs on the same OS and reduce API calls.
-* **Filter by Severity**: Add command-line arguments to filter the results. For example, `python main.py --min-severity 7.0` could show only High or Critical vulnerabilities.
 * **Advanced Output Formats**: Add options to export the list of vulnerabilities to different formats, like **CSV** or **JSON**, making it easier to use the data in other tools or reports.
-* **Batch Processing**: Allow the script to accept a file with a list of CPEs as input, so it can check for vulnerabilities for multiple systems at once.
 * **Improved Error Handling**: Add more robust error handling for different types of network failures or unexpected API responses from the NVD.
+
+## To Have in mind
+
+Just ideas:
+
+* **Batch Processing**: Allow the script to accept a file with a list of CPEs as input, so it can check for vulnerabilities for multiple systems at once.
+* **Filter by Severity**: Add command-line arguments to filter the results. For example, `python main.py --min-severity 7.0` could show only High or Critical vulnerabilities.
+* **Cache Discovered CPEs**: Save the CPEs found through the API to a local file (e.g., `cpe_cache.json`). This would speed up future runs on the same OS and reduce API calls.
