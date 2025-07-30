@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-cve_bot.py
 
-A simple bot to detect the current OS and find related CVEs using the NVD API.
+A simple script to detect the current OS and find related CVEs using the NVD API.
 
 REQUIREMENTS:
   - Python 3.6+

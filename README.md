@@ -2,7 +2,7 @@
 
 Author: **[m4r4v](https://github.com/m4r4v)**
 
-`get-os-cve` is a Python script that automatically detects the operating system it's running on, queries the National Vulnerability Database (NVD), and reports any known Common Vulnerabilities and Exposures (CVEs) associated with that OS.
+`get-os-cve` is a Python script that detects the operating system it's running on, queries the National Vulnerability Database (NVD), and prints any known Common Vulnerabilities and Exposures (CVEs) associated with that OS.
 
 ---
 
